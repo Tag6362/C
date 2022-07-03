@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(){
+	int l, L, i;
+	l = 0;
+	L = 0;
+	i = 0;
+
+	char symb[2];
+
+	printf("Character?\n");
+    fgets(symb, 2, stdin);
+
+	printf("Length? \n");
+	scanf("%d", &L);
+
+    printf("Width?\n");
+    scanf("%d", &l);
+
+    printf("\n\n");
+
+	for(i = 0; i < L; i++) {
+		printf("%s", symb);
+	}
+
+	printf("\n");
+
+	for(i = 1; i < l-1; i++) {
+		printf("%s", symb);
+
+		for(int i = 1; i < L-1; i++) {
+			printf(" ");
+		}
+		printf("%s\n", symb);
+	}
+
+	for(i = 0; i < L; i++) {
+		printf("%s", symb);
+	}
+
+	return 0;
+}

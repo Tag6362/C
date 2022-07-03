@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1655585939 source:c:\users\tomge\desktop\c\namesurnamesplitter\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1655630473 source:c:\users\tomge\desktop\c\mentalcalculus\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
